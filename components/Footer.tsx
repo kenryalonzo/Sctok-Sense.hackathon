@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Column 1: Brand & Social */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-[#00D9FF] to-[#0066FF] rounded-lg flex items-center justify-center text-white font-bold">
+              <div className="w-8 h-8 bg-linear-to-br from-[#00D9FF] to-[#0066FF] rounded-lg flex items-center justify-center text-white font-bold">
                 S
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">

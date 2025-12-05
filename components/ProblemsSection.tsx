@@ -34,7 +34,7 @@ export default function ProblemsSection() {
   return (
     <section className="relative py-32 bg-black overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900/50 via-black to-black" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-zinc-900/50 via-black to-black" />
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <m.div
@@ -65,16 +65,16 @@ export default function ProblemsSection() {
             >
               {/* Hover Glow Effect */}
               <div
-                className={`absolute inset-0 rounded-3xl bg-gradient-to-br ${problem.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
+                className={`absolute inset-0 rounded-3xl bg-linear-to-br ${problem.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
               />
 
               <div
-                className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${problem.color} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                className={`w-14 h-14 rounded-2xl bg-linear-to-br ${problem.color} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}
               >
                 <problem.icon className="w-7 h-7 text-white" />
               </div>
 
-              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-zinc-400 transition-all">
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-linear-to-r group-hover:from-white group-hover:to-zinc-400 transition-all">
                 {problem.title}
               </h3>
 
@@ -84,7 +84,7 @@ export default function ProblemsSection() {
 
               {/* Decorative Line */}
               <div
-                className={`absolute bottom-0 left-0 h-1 bg-gradient-to-r ${problem.color} w-0 group-hover:w-full transition-all duration-700 ease-out rounded-b-3xl`}
+                className={`absolute bottom-0 left-0 h-1 bg-linear-to-r ${problem.color} w-0 group-hover:w-full transition-all duration-700 ease-out rounded-b-3xl`}
               />
             </m.div>
           ))}

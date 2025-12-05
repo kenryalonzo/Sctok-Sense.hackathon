@@ -77,7 +77,7 @@ export default function Header() {
           </Link>
           <Link
             href="/signup"
-            className="px-4 py-2 rounded-full bg-gradient-to-r from-[#00D9FF] to-[#0066FF] text-white text-sm font-bold hover:shadow-[0_0_20px_rgba(0,217,255,0.5)] transition-shadow duration-300"
+            className="px-4 py-2 rounded-full bg-linear-to-r from-[#00D9FF] to-[#0066FF] text-white text-sm font-bold hover:shadow-[0_0_20px_rgba(0,217,255,0.5)] transition-shadow duration-300"
           >
             Démarrer gratuit
           </Link>
@@ -121,7 +121,7 @@ export default function Header() {
             </Link>
             <Link
               href="/signup"
-              className="text-center px-4 py-3 rounded-lg bg-gradient-to-r from-[#00D9FF] to-[#0066FF] text-white font-bold"
+              className="text-center px-4 py-3 rounded-lg bg-linear-to-r from-[#00D9FF] to-[#0066FF] text-white font-bold"
               onClick={() => setMobileMenuOpen(false)}
             >
               Démarrer gratuit

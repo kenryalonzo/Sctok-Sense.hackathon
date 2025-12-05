@@ -94,7 +94,7 @@ function SolutionRow({ item, index }: { item: any; index: number }) {
 
       {/* BEFORE Card */}
       <m.div style={{ y: yLeft, opacity }} className="relative group">
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500/20 to-orange-500/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500" />
+        <div className="absolute -inset-0.5 bg-linear-to-r from-red-500/20 to-orange-500/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500" />
         <div className="relative p-8 rounded-2xl bg-zinc-900/80 border border-red-500/10 backdrop-blur-sm h-full flex flex-col">
           <div className="flex items-center justify-between mb-6">
             <span className="text-xs font-bold tracking-widest text-red-400 uppercase bg-red-500/10 px-3 py-1 rounded-full">
@@ -111,7 +111,7 @@ function SolutionRow({ item, index }: { item: any; index: number }) {
 
       {/* AFTER Card */}
       <m.div style={{ y: yRight, opacity }} className="relative group">
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500" />
+        <div className="absolute -inset-0.5 bg-linear-to-r from-green-500/20 to-emerald-500/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500" />
         <div className="relative p-8 rounded-2xl bg-zinc-900/80 border border-green-500/10 backdrop-blur-sm h-full flex flex-col">
           <div className="flex items-center justify-between mb-6">
             <span className="text-xs font-bold tracking-widest text-green-400 uppercase bg-green-500/10 px-3 py-1 rounded-full">
