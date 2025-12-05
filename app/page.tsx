@@ -4,6 +4,7 @@ import ProblemsSection from "@/components/ProblemsSection";
 import SolutionsSection from "@/components/SolutionsSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
+import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <SolutionsSection />
         <FeaturesSection />
         <HowItWorksSection />
+        <CTASection />
       </main>
       <Footer />
     </div>
